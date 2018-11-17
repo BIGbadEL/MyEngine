@@ -5,6 +5,7 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
+#include <string>
 
 namespace GL {
     /**
@@ -16,7 +17,7 @@ namespace GL {
 
         /**
          * @fn Window
-         * @brief Initialise glfw, glew and create Window Object
+         * @brief Initialise Logging system, glfw, glew and create Window Object
          * @param height -> height of a window
          * @param width -> width of a window
          * @param name -> name of a window
